@@ -76,6 +76,7 @@ include_once( CMB_PATH . 'fields/class-cmb-time-field.php' );
 include_once( CMB_PATH . 'fields/class-cmb-title.php' );
 include_once( CMB_PATH . 'fields/class-cmb-url-field.php' );
 include_once( CMB_PATH . 'fields/class-cmb-wysiwyg.php' );
+include_once( CMB_PATH . 'fields/class-cmb-Icon_group.php' );
 
 /**
  * Make it possible to add fields in locations other than post edit screen. Optional.
@@ -154,6 +155,8 @@ function _cmb_available_fields() {
 		'group'           => 'CMB_Group_Field',
 		'gmap'            => 'CMB_Gmap_Field',
 		'number'          => 'CMB_Number_Field',
+		'group_icon'      => 'CMB_Icons',
+
 	) );
 
 }
